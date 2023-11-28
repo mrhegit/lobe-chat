@@ -79,7 +79,7 @@ const Inner = memo(() => {
             minWidth: undefined,
           },
         ].filter(Boolean),
-        icon: Share2,
+        avatar: Share2,
         title: t('shareModal.settings'),
       }) as ItemGroup,
     [tab, withSystemRole, withPluginInfo, withBackground, withFooter, imageType],

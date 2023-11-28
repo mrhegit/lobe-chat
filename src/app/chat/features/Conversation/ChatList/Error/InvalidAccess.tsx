@@ -29,11 +29,11 @@ const InvalidAccess: RenderErrorMessage['Render'] = memo(({ id }) => {
         onChange={(value) => setMode(value as Tab)}
         options={[
           {
-            icon: <Icon icon={SquareAsterisk} />,
+            avatar: <Icon icon={SquareAsterisk} />,
             label: t('password', { ns: 'common' }),
             value: Tab.Password,
           },
-          { icon: <Icon icon={KeySquare} />, label: 'OpenAI API Key', value: Tab.Api },
+          { avatar: <Icon icon={KeySquare} />, label: 'OpenAI API Key', value: Tab.Api },
         ]}
         style={{ width: '100%' }}
         value={mode}

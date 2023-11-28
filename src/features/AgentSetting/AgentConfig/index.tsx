@@ -107,7 +107,7 @@ const AgentConfig = memo(() => {
         name: 'compressThreshold',
       },
     ],
-    icon: MessageSquare,
+    avatar: MessageSquare,
     title: t('settingChat.title'),
   };
 
@@ -165,7 +165,7 @@ const AgentConfig = memo(() => {
         tag: 'max_tokens',
       },
     ],
-    icon: BrainCog,
+    avatar: BrainCog,
     title: t('settingModel.title'),
   };
 

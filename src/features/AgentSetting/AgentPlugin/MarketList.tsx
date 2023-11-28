@@ -219,7 +219,7 @@ const MarketList = memo(() => {
                 </Tooltip>
               </Space.Compact>
             ),
-            icon: LucideStore,
+            avatar: LucideStore,
             title: t('settingPlugin.title'),
           },
         ]}

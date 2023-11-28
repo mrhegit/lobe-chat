@@ -12,13 +12,13 @@ export const useCustomActions = () => {
       key: i.value,
       label: t(`lang.${i.value}`, { ns: 'common' }),
     })),
-    icon: LanguagesIcon,
+    avatar: LanguagesIcon,
     key: 'translate',
     label: t('translate.action'),
   } as ActionIconGroupItems;
 
   const tts = {
-    icon: Play,
+    avatar: Play,
     key: 'tts',
     label: t('tts.action'),
   } as ActionIconGroupItems;

@@ -38,7 +38,7 @@ const TTS = memo(() => {
         valuePropName: 'checked',
       },
     ],
-    icon: Mic,
+    avatar: Mic,
     title: t('settingTTS.stt'),
   };
 
@@ -55,7 +55,7 @@ const TTS = memo(() => {
         name: [TTS_SETTING_KEY, 'openAI', 'sttModel'],
       },
     ],
-    icon: Webhook,
+    avatar: Webhook,
     title: t('llm.OpenAI.title'),
   };
 

@@ -89,7 +89,7 @@ const AgentTTS = memo(() => {
         name: [TTS_SETTING_KEY, 'sttLocale'],
       },
     ],
-    icon: Mic,
+    avatar: Mic,
     title: t('settingTTS.title'),
   };
 

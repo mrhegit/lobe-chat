@@ -145,7 +145,7 @@ const Common = memo(() => {
         minWidth: undefined,
       },
     ],
-    icon: Palette,
+    avatar: Palette,
     title: t('settingTheme.title'),
   };
 
@@ -178,7 +178,7 @@ const Common = memo(() => {
         minWidth: undefined,
       },
     ],
-    icon: AppWindow,
+    avatar: AppWindow,
     title: t('settingSystem.title'),
   };
 

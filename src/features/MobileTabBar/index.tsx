@@ -25,7 +25,7 @@ export default memo<{ className?: string }>(({ className }) => {
   const items: MobileTabBarProps['items'] = useMemo(
     () => [
       {
-        icon: (active) => (
+        avatar: (active) => (
           <Icon className={active ? styles.active : undefined} icon={MessageSquare} />
         ),
         key: SidebarTabKey.Chat,
@@ -36,7 +36,7 @@ export default memo<{ className?: string }>(({ className }) => {
         title: t('tab.chat'),
       },
       {
-        icon: (active) => <Icon className={active ? styles.active : undefined} icon={Bot} />,
+        avatar: (active) => <Icon className={active ? styles.active : undefined} icon={Bot} />,
         key: SidebarTabKey.Market,
         onClick: () => {
           setTab(SidebarTabKey.Market);
@@ -45,7 +45,7 @@ export default memo<{ className?: string }>(({ className }) => {
         title: t('tab.market'),
       },
       {
-        icon: (active) => <Icon className={active ? styles.active : undefined} icon={User} />,
+        avatar: (active) => <Icon className={active ? styles.active : undefined} icon={User} />,
         key: SidebarTabKey.Setting,
         onClick: () => {
           setTab(SidebarTabKey.Setting);

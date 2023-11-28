@@ -117,7 +117,7 @@ const AgentMeta = memo(() => {
           </Button>
         </Tooltip>
       ),
-      icon: UserCircle,
+      avatar: UserCircle,
       title: t('settingAgent.title'),
     }),
     [autocompleteItems, meta],

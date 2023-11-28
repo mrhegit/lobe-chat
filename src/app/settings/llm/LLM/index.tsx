@@ -133,7 +133,7 @@ const LLM = memo(() => {
       //   name: [configKey, 'openAI', 'models'],
       // },
     ],
-    icon: Webhook,
+    avatar: Webhook,
     title: t('llm.OpenAI.title'),
   };
 
